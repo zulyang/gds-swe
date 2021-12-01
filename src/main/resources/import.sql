@@ -1,0 +1,1 @@
+INSERT INTO user (name, salary) VALUES ('John', 2500.05),('Mary Posa', 4000), ('Sally Tan', 1000);
