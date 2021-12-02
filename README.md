@@ -20,13 +20,13 @@ You'll need Java 8 installed.
 To test that it works, open a browser tab at http://localhost:8080/users.  
 Alternatively, you can run
 
-    curl http://localhost:8080/users
+    curl 'http://localhost:8080/users'
 
 
 ## Acceptance Requirement 1
 #### 1. Return all users
 ```
-curl https://localhost:8080/users
+curl 'https://localhost:8080/users'
 ```
 Expected Response Body: 
 ```json
@@ -125,7 +125,7 @@ Validate Response:
 
 Run:
 ```
-curl https://localhost:8080/users/
+curl 'https://localhost:8080/users/'
 ```
 Expected Response:
 ```json
@@ -201,7 +201,7 @@ Validate Response:
 
 Run:
 ```
-curl https://localhost:8080/users/
+curl 'https://localhost:8080/users/'
 ```
 Expected Response: 
 ```json
