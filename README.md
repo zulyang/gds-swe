@@ -51,7 +51,7 @@ Expected Response Body:
 #### 2. End Point Parameters (Valid)
 
 ```
-http://localhost:8080/users?min=1000&max=3000&sort=salary
+curl 'http://localhost:8080/users?min=1000&max=3000&sort=salary'
 ```
 Expected Response Body: 
 ```json
@@ -73,7 +73,7 @@ Expected Response Body:
 Run:
 
 ```
-curl http://localhost:8080/users?sort=birthdate
+curl 'http://localhost:8080/users?sort=birthdate'
 ```
 Expected Response: 
 ```json
@@ -83,7 +83,7 @@ Expected Response:
 ```
 Run:
 ```
-curl http://localhost:8080/users?min=onehundred
+curl 'http://localhost:8080/users?min=onehundred'
 ```
 Expected Response: 
 ```json
